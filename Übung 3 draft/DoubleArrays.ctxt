@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DoubleArrays
+comment0.text=\r\n\ Aktualisierte\ Version\ von\ DoubleArrays.\ Methoden\ mit\ 2D\ Matrix.\r\n\ @author\ Lukas\ M\u00FCller,\ Yevgeniy\ Vaysman,\ Jonas\ Wiegand\ \r\n\ @version\ 15.11.2017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a
+comment2.target=int\ gibLaenge(double[])
+comment3.params=laenge
+comment3.target=double[]\ erzeugeArray(int)
+comment4.params=c
+comment4.target=void\ fuelleArray(double[])
+comment5.params=d\ pos
+comment5.target=double\ gibWert(double[],\ int)
+comment6.params=anzahlZeilen\ anzahlSpalten
+comment6.target=double[][]\ erzeugeMatrix2D(int,\ int)
+comment6.text=\r\n\ Zeilen\ und\ Spalten\ der\ 2D\ Matrix\ werden\ eingelesen,\ die\ Matrix\ wird\ erstellt,\ der\ Benutzer\ wird\ \r\n\ nach\ Werten\ gefragt\ und\ diese\ werden\ eingelesen.\r\n
+comment7.params=matrix2D
+comment7.target=void\ male2DMatrix(double[][])
+numComments=8
