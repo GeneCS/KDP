@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SimKarte
+comment0.text=\r\n\ Die\ Klasse\ Simkarte\ hat\ private\ Variablen\ provider\ und\ Rufnummer.\r\n\ Im\ Konstruktor\ wird\ ein\ provider\ \u00FCbergeben.\ Dieser\ soll\ dann\ abgespeichert\ werden.\r\n\ \r\n\ @author\ Mueller,\ Vaysman,\ Wiegand\r\n\ @version\ (9.11.2017)\r\n
+comment1.params=provider
+comment1.target=SimKarte(java.lang.String)
+comment1.text=\r\n\ sinnvoll\ privat\ ,da\ es\ ausserhalb\ der\ Klasse\ SimKarte\ nicht\ ge\u00E4ndert\ werden\ sollte.\r\n\ Jede\ Person\ hat\ eine\ andere\ Rufnummer,\ deswegen\ wird\ nicht\ mit\ static,\ also\ einem\ Klassenfeld,\ \r\n\ sondern\ mit\ einem\ Objektfeld\ gearbeitet.\r\n
+comment2.params=
+comment2.target=java.lang.String\ gibProvider()
+comment2.text=\r\n\ provider\ wird\ zur\u00FCckgegeben,\ wichtig\ Zugriffe\ auf\ diese\ Variable\ au\u00DFerhalb\ der\ Klasse\ Simkarte.\r\n
+comment3.params=Rufnummer
+comment3.target=void\ setzeRufnummer(java.lang.String)
+comment3.text=\r\n\ gleiche\ Prinzipien\ wie\ f\u00FCr\ provider.\r\n
+comment4.params=
+comment4.target=java.lang.String\ gibRufnummer()
+comment5.params=Rufnummer
+comment5.target=void\ fuegeEin(java.lang.String)
+comment6.params=
+comment6.target=void\ gibAus()
+numComments=7

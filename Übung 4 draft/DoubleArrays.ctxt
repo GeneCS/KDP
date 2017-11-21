@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=a
+comment1.target=int\ gibLaenge(double[])
+comment2.params=laenge
+comment2.target=double[]\ erzeugeArray(int)
+comment3.params=c
+comment3.target=void\ fuelleArray(double[])
+comment4.params=d\ pos
+comment4.target=double\ gibWert(double[],\ int)
+comment5.params=anzahlZeilen\ anzahlSpalten
+comment5.target=double[][]\ erzeugeMatrix2D(int,\ int)
+comment5.text=\r\n\ Zeilen\ und\ Spalten\ der\ 2D\ Matrix\ werden\ eingelesen,\ die\ Matrix\ wird\ erstellt,\ der\ Benutzer\ wird\ \r\n\ nach\ Werten\ gefragt\ und\ diese\ werden\ eingelesen.\r\n
+comment6.params=matrix2D
+comment6.target=void\ male2DMatrix(double[][])
+numComments=7

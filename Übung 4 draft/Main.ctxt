@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Ein\ neue\ Simkarte\ mit\ anbieter\ "schleichwerbung"\ wird\ erstellt.\r\n\ Es\ werden\ 5\ Nummern\ eingelesen\ und\ in\ das\ Telefonbuch\ geschrieben.\r\n\ Der\ provider\ und\ der\ Inhalt\ des\ Telefonbuchs\ werden\ ausgegeben.\r\n\ Eine\ weitere\ Nummer\ ergibt\ eine\ Ausgabe.\r\n\ Anschlie\u00DFend\ wird\ ein\ neues\ Objekt\ der\ Klasse\ Handy\ erstellt\ und\ eingeschalten.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

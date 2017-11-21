@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Student\ wird\ ein\ nachname\ und\ der\ erste\ Vorname\ \u00FCbergeben.\ Vorname\ wird\ an\ die\ erste\ Stelle\ eines\ 4stelligen\ Arrays\ zugewiesen.\ \r\n\ Die\ Anzahl\ der\ Studenten\ steigt\ beim\ jedem\ Aufrufen\ des\ Konstruktor\ und\ der\ Wert\ wird\ als\ Matrikelnummer\ zugewiesen.\r\n\ \r\n\ @author\ Mueller,Vaysman,Wiegand\r\n\ @version\ 21.11.2017\r\n
+comment1.params=nachname\ erstername
+comment1.target=Student(java.lang.String,\ java.lang.String)
+numComments=2

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Mobiltelefon
+comment0.text=\r\n\ Die\ Klasse\ Mobiltelefon\ bekommt\ ein\ privates\ Objektfeld\ sim\ von\ Klasse\ Simkarte.\r\n\ Im\ Konstruktor\ bekommt\ Mobiltelefon\ eine\ Simkartenobjekt\ s\ \u00FCbergeben.\ Die\ Werte\ von\ sim\ sollen\ die\ \r\n\ Werte\ der\ \u00FCbergebenen\ Simkarte\ s\ bekommen\ und\ werden\ in\ pirvaten\ Objektfeldern\ gespeichert.\r\n\ \r\n\ @author\ Lukas\ Mueller,\ Yevgeniy\ Vaysman,\ Jonas\ Wiegand\ \r\n\ @version\ 15.11.2017\r\n
+comment1.params=s
+comment1.target=Mobiltelefon(SimKarte)
+comment2.params=
+comment2.target=void\ einschalten()
+comment2.text=\r\n\ Der\ Name\ des\ Providers\ wird\ ausgegeben,\ indem\ auf\ die\ Methode\ gibProvider\ der\ Klasse\ Simkarte\ \r\n\ zugegriffen\ wird.\r\n
+comment3.params=Rufnummer
+comment3.target=void\ waehlen(java.lang.String)
+comment3.text=\r\n\ Hier\ wird\ eine\ Rufnummer\ \u00FCbergeben,\ dann\ auf\ der\ Konsole\ ausgegeben\ und\ schlie\u00DFlich\ in\ sim\ gespeichert\r\n\ mithilfe\ eines\ Methodenaufrufs.\r\n
+comment4.params=
+comment4.target=void\ wahlWiederholung()
+comment4.text=\r\n\ Die\ derzeit\ gespeicherte\ letze\ Rufnummer\ von\ sim\ wird\ ausgelesen\ mithilfe\ Methode\ gibRufnummer\ der\r\n\ Klasse\ Simkarte\ .\ Dann\ wird\ die\ Methode\ waehlen\ ausgef\u00FChrt.\r\n
+numComments=5
