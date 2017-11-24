@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Zeichenbehandler()
+comment1.params=buchstabe
+comment1.target=boolean\ uebergabe(char)
+comment2.params=buchstabe\ schluessel
+comment2.target=char\ verschluessle(char,\ int)
+comment3.params=laengeWort\ schluessel
+comment3.target=char[]\ verschluessleWort(int,\ int)
+numComments=4
