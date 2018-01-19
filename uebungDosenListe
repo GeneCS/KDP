@@ -1,0 +1,99 @@
+
+/**
+ * Beschreiben Sie hier die Klasse DosenListe.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class DosenListe
+{
+    private Element erstes;
+    class Element {
+        private Plaetzchendose dose;
+        private Element voriges;
+        private Element nachfolgendes;
+
+        public Element(Plaetzchendose d) {
+            dose = d;
+        }
+
+    }
+
+    public DosenListe(Plaetzchendose d) {
+        erstes = new Element(d);
+    }
+
+    private void fuegeAlsNachfolgerEin(Element davor, Element insert)
+    {
+        insert.voriges = davor.nachfolgendes;
+        insert.nachfolgendes = davor;
+        davor.nachfolgendes.voriges = insert;
+        davor.nachfolgendes = insert;      
+    }
+
+    public void loesche(Element del)
+    {
+        del.voriges = del.nachfolgendes;
+        del.nachfolgendes = del.voriges;
+    }
+
+    public int gibLaenge()
+    {
+        Element current = erstes;
+        int counter = 0;
+        while(erstes.nachfolgendes != null)
+        {
+            erstes = erstes.nachfolgendes;
+            counter++;
+        }
+        return counter;       
+    }
+
+    public void fuegeEin(int pos, Plaetzchendose d)
+    {
+        int l = gibLaenge();
+        if(l<pos)
+        {
+            Element current = erstes;
+            while(erstes.nachfolgendes != null)
+            {
+                erstes = erstes.nachfolgendes;
+            }
+            Element neu = new Element(d);
+            fuegeAlsNachfolgerEin(current, neu);
+        }
+        else
+        {
+            Element current = erstes;
+            for(int i = 0; i < pos-1; i++)
+            {
+                current = current.nachfolgendes;                
+            }
+            Element neu = new Element(d);
+            fuegeAlsNachfolgerEin(current, neu);
+        }
+    }
+
+    public void loesche(int pos)
+    {
+        if(pos < 0 || pos > gibLaenge())
+        {
+            Out.println("Sie haben eine ungueltige Position eingegeben!");
+        }
+        else
+        {
+            Element current = erstes;
+            for(int i = 0; i < pos; i++)
+            {
+                current = current.nachfolgendes;                
+            }
+            loesche(current);
+        }
+
+    }
+
+    public static void main(String [] args)
+    {
+
+    }
+}
